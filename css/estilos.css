@@ -1,0 +1,307 @@
+#barra{
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 200%;
+    
+}
+
+#titulo{
+  
+    text-align: center;
+    font-size: 300%;
+    color: beige;
+    
+}
+
+.barra{
+    
+    text-decoration: none;
+    padding: 1px 30px;
+    color: beige;
+}
+
+body{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+    
+    
+
+}
+
+.barra:hover{
+    text-decoration: overline;
+    
+}
+
+header{
+    background-color: black;
+    padding: 5px;
+}
+
+.home{
+    display: flex;
+    padding: 80px 10px;
+}
+
+#parrafo1{
+    text-align: justify;
+    padding: 200px 50px;
+    font-size: 200%;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 50px 50px;
+}
+
+#bloque1{
+    display: flex;
+    padding: 0px 50px;
+}
+
+#bloque2{
+    display: flex;
+    padding: 50px 50px;
+}
+
+#imagen1{
+    width: 50%;
+    height: 50%;
+}
+
+#imagen2{
+    width: 50%;
+    height: 100%;
+}
+
+#texto1{
+    padding: 100px 20px;
+}
+
+#texto2{
+    padding: 100px 20px;
+}
+
+#nosotros{
+    padding: 100px;
+}
+
+#titulonosotros{
+    text-align: center;
+    padding: 1px 1px;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nombre{
+
+    padding: 10px 170px;
+    font-size: 200%;
+    text-decoration: none;
+    font-family:fantasy;
+    font-weight: 0;
+    color: black;
+    
+    
+
+}
+
+#sabores{
+    text-align: center;
+    padding: 100px 60px;
+}
+
+.foto1{
+    display: flex;
+    padding: 10px 80px;
+}
+
+.foto2{
+    display: flex;
+    padding: 10px 60px;
+}
+
+.foto3{
+    display: flex;
+    padding: 10px 70px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+}
+
+.mapa1{
+    display: flex;
+    padding: 5px;
+}
+
+#mapauno{
+    padding: 30px 10px;
+    height: 160px;
+    padding: 110px 170px;
+
+
+}
+
+#direccion1{
+    width: 500px;
+    height: 5px;
+    padding: 100px 10px;
+}
+
+.mapa2{
+    display: flex;
+    padding: 10px;
+}
+
+#mapados{
+    padding: 30px 100px;
+     height: 160px;
+    padding: 120px 170px;
+
+}
+
+#direccion2{
+    width: 500px;
+    height: 10px;
+    padding: 100px 30px;
+}    
+
+#contactos{
+    padding: 110px 800px;
+    text-align: center;
+    
+}
+    
+
+
+
+#imagenredes{
+  width: 50px;
+  height: 50px;
+} 
+
+
+#instagramredes{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 50px 900px;
+}
+
+#facebookredes{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 50px 890px;
+}
+
+
+#wspredes{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 50px 900px;
+}
+
+
+#ytredes{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    padding: 50px 900px;
+}
+
+@media (max-width: 600px){
+
+    .home{
+        display: grid;
+    }
+    
+    #titulo{
+        font-size: 60px;
+    }
+    
+    .barra{
+        
+        display: inline-flex;
+        height: 20px;
+        font-size: 15px;
+        
+
+    }
+
+   .rounded-circle{
+        display: flex;
+        width: 390px;
+        height: 300px;
+        
+
+        
+   }
+
+   #parrafo1{
+
+    padding: 3px;
+    font-size: 20px;
+   }
+    
+   #bloque1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+   }
+
+   #texto1{
+    width: 300px;
+    text-align: justify;
+   }
+
+    
+
+   #imagen2{
+    width: 300px;
+    padding: 1px 1px;
+    
+    
+   }
+
+   #bloque2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+    #texto2{
+        width: 300px;
+        text-align: justify;
+    }
+
+    #imagen1{
+        width: 300px;
+    }
+
+    
+
+
+}
+    
+@media (min-width: 600px){
+
+}
+
+
+
