@@ -10,6 +10,7 @@
     text-align: center;
     font-size: 300%;
     color: beige;
+    font-family:'Times New Roman', Times, serif;
     
 }
 
@@ -18,6 +19,7 @@
     text-decoration: none;
     padding: 1px 30px;
     color: beige;
+    
 }
 
 body{
@@ -36,12 +38,13 @@ body{
 
 header{
     background-color: black;
-    padding: 5px;
+    padding: 40px;
+    
 }
 
 .home{
     display: flex;
-    padding: 80px 10px;
+    padding: 100px 10px;
 }
 
 #parrafo1{
@@ -75,6 +78,7 @@ footer{
 #imagen2{
     width: 50%;
     height: 100%;
+    padding: 10px;
 }
 
 #texto1{
@@ -91,7 +95,7 @@ footer{
 
 #titulonosotros{
     text-align: center;
-    padding: 1px 1px;
+    padding: 100px 10px;
     font-size: 300%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -235,6 +239,7 @@ footer{
         display: inline-flex;
         height: 20px;
         font-size: 15px;
+        text-align: center;
         
 
     }
@@ -294,12 +299,15 @@ footer{
         width: 300px;
     }
 
-    
 
+    
+    
+    
 
 }
     
 @media (min-width: 600px){
+    
 
 }
 
