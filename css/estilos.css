@@ -24,7 +24,8 @@
 
 body{
     
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff8e8;
     
     
     
@@ -44,13 +45,15 @@ header{
 
 .home{
     display: flex;
+    
     padding: 100px 10px;
 }
 
 #parrafo1{
     text-align: justify;
     padding: 200px 50px;
-    font-size: 200%;
+    font-size: 400%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer{
@@ -71,14 +74,14 @@ footer{
 }
 
 #imagen1{
-    width: 50%;
+    width: 44%;
     height: 50%;
 }
 
 #imagen2{
-    width: 50%;
+    width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 5px;
 }
 
 #texto1{
@@ -113,6 +116,11 @@ footer{
 
 }
 
+.variedad{
+    font-size: 50px;
+    padding: 100px 200px;
+}
+
 #sabores{
     text-align: center;
     padding: 100px 60px;
@@ -144,7 +152,7 @@ footer{
 
 .mapa1{
     display: flex;
-    padding: 5px;
+    padding: 100px;
 }
 
 #mapauno{
@@ -163,7 +171,7 @@ footer{
 
 .mapa2{
     display: flex;
-    padding: 10px;
+    padding: 100px;
 }
 
 #mapados{
@@ -179,9 +187,11 @@ footer{
     padding: 100px 30px;
 }    
 
-#contactos{
-    padding: 110px 800px;
+.contactos{
+    padding: 10% 10%;
+    padding-bottom: 300px;
     text-align: center;
+    font-size: 150%;
     
 }
     
@@ -223,6 +233,26 @@ footer{
     height: 80px;
     padding: 50px 900px;
 }
+
+.Contenedorsabores {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    text-align: center;
+    padding:30px 30px;
+    font-size: 30px;
+    grid-template-areas:
+      "area1 area2 area3";
+  }
+  
+  .area1 { grid-area: area1; }
+  
+  .area2 { grid-area: area2; }
+  
+  .area3 { grid-area: area3; }
+  
+
 
 @media (max-width: 600px){
 
@@ -279,8 +309,6 @@ footer{
    #imagen2{
     width: 300px;
     padding: 1px 1px;
-    
-    
    }
 
    #bloque2{
@@ -288,7 +316,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-}
+    }
 
     #texto2{
         width: 300px;
@@ -299,8 +327,77 @@ footer{
         width: 300px;
     }
 
+    .Contenedorsabores {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". area1 ."
+          ". area2 ."
+          ". area3 .";
+      }
+      
+      .area1 { grid-area: area1; }
+      
+      .area2 { grid-area: area2; }
+      
+      .area3 { grid-area: area3; }
+      
+    #colo{
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
 
+    #ale{
+        width: 300px;
+        
+        
+    }
+
+    #porter{
+        width: 300px;
+    }
+
+    .variedad{
+        font-size: 20px;
+        padding: 100px 100px;
+        text-align: center;
+    }
     
+
+    .mapa1{
+        display: grid;
+        padding-left: 3px;
+        padding-right: 1px;
+        padding-bottom: 10px;
+        
+    }
+
+    .direccion1{
+        padding-top: 30px;
+        text-align:justify;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 80%;
+
+    }
+
+    .mapa2{
+        
+        display: grid;
+        padding-left: 3px;
+        padding-right: 1px;
+    }
+
+    .direccion2{
+        padding-top: 30px;
+        text-align:justify;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 80%;
+    }
     
     
 
