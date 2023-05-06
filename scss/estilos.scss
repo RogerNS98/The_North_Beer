@@ -1,0 +1,381 @@
+@import"animaciones";
+
+
+
+/* variables*/
+
+$Colorprincipal: beige;
+
+
+body{
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff8e8;
+}
+
+#titulo{
+  
+    text-align: center;
+    font-size: 300%;
+    color:$Colorprincipal;
+    font-family:'Times New Roman', Times, serif;   
+}
+
+#barra{
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 200%;
+    .barra{
+    
+        text-decoration: none;
+        padding: 1px 30px;
+        color:$Colorprincipal;
+        
+    }
+    :hover{
+        text-decoration: overline;
+        
+    }    
+    
+}
+
+header{
+    background-color: black;
+    padding: 40px;
+
+    
+}
+
+.home{
+    display: flex;
+    
+    padding: 100px 10px;
+
+    #parrafo1{
+        text-align: justify;
+        padding: 200px 50px;
+        font-size: 400%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .rounded-circle{
+        animation-name: opacidad;
+        animation-duration: 5s;
+        animation-delay: 3s;
+        z-index: 1;
+        
+    }
+
+    .fototrasera{
+        position: absolute;
+        padding-left: 190px;
+        padding-top: 160px;
+        z-index: -1;
+        width: auto;
+    }
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 50px 50px;
+    #imagenredes{
+        width: 50px;
+        height: 50px;
+      } 
+      
+      
+      #instagramredes{
+          display: flex;
+          width: 80px;
+          height: 80px;
+          padding: 50px 900px;
+      }
+      
+      #facebookredes{
+          display: flex;
+          width: 80px;
+          height: 80px;
+          padding: 50px 890px;
+      }
+      
+      
+      #wspredes{
+          display: flex;
+          width: 80px;
+          height: 80px;
+          padding: 50px 900px;
+      }
+      
+      
+      #ytredes{
+          display: flex;
+          width: 80px;
+          height: 80px;
+          padding: 50px 900px;
+      }
+}
+
+#titulonosotros{
+    text-align: center;
+    padding: 100px 10px;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#nosotros{
+    padding: 100px;
+
+    #bloque1{
+        display: flex;
+        padding: 0px 50px;
+    }
+
+    #imagen2{
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+    }
+
+    #texto1{
+        padding: 100px 20px;
+    }
+
+
+}
+
+#bloque2{
+    display: flex;
+    padding: 50px 50px;
+
+    #imagen1{
+        width: 44%;
+        height: 50%;
+    }
+
+    #texto2{
+        padding: 100px 20px;
+    }
+    
+}
+
+.variedad{
+    font-size: 50px;
+    padding: 100px 200px;
+}
+
+.Contenedorsabores {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    text-align: center;
+    padding:30px 30px;
+    font-size: 30px;
+    grid-template-areas:
+      "area1 area2 area3";
+  }
+  
+  .area1 { grid-area: area1; }
+  
+  .area2 { grid-area: area2; }
+  
+  .area3 { grid-area: area3; }
+
+
+.mapa1{
+    display: flex;
+    padding: 100px;
+
+    #direccion1{
+        width: 500px;
+        height: 5px;
+        padding: 100px 10px;
+    }
+}
+
+.mapa2{
+    display: flex;
+    padding: 100px;
+
+    #direccion2{
+        width: 500px;
+        height: 10px;
+        padding: 100px 30px;
+    }  
+}
+
+.contactos{
+    padding: 10% 10%;
+    padding-bottom: 300px;
+    text-align: center;
+    font-size: 150%;
+    
+}
+
+@media (max-width: 600px){
+
+    .home{
+        display: grid;
+
+        #parrafo1{
+
+            padding: 3px;
+            font-size: 20px;
+           }
+           .rounded-circle{
+            display: flex;
+            width: 390px;
+            height: 300px;
+            animation-name: opacidad;
+        animation-duration: 5s;
+        animation-delay: 3s;
+        z-index: 1;
+            
+       }
+
+       .fototrasera{
+        position: absolute;
+        padding-left: 27px;
+        padding-top: 40px;
+        z-index: -1;
+        width: 370px;
+    }
+    }
+    
+    #titulo{
+        font-size: 60px;
+    }
+    
+    .barra{
+        
+        display: inline-flex;
+        height: 20px;
+        font-size: 15px;
+        text-align: center;
+        
+
+    }
+
+
+   #texto1{
+    width: 300px;
+    text-align: justify;
+    
+   }
+
+
+   #bloque1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    #imagen2{
+        width: 300px;
+        padding: 1px 1px;
+       }
+   }
+    
+
+   
+
+   #bloque2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    #texto2{
+        width: 300px;
+        text-align: justify;
+    }
+    #imagen1{
+        width: 300px;
+    }
+    }
+
+    
+
+    
+
+    .Contenedorsabores {  display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+          ". area1 ."
+          ". area2 ."
+          ". area3 .";
+      }
+      
+      .area1 { grid-area: area1; }
+      
+      .area2 { grid-area: area2; }
+      
+      .area3 { grid-area: area3; }
+      
+    #colo{
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    #ale{
+        width: 300px;
+        
+        
+    }
+
+    #porter{
+        width: 300px;
+    }
+
+    .variedad{
+        font-size: 20px;
+        padding: 100px 100px;
+        text-align: center;
+    }
+    
+
+    .mapa1{
+        display: grid;
+        padding-left: 3px;
+        padding-right: 1px;
+        padding-bottom: 10px;
+        
+        .direccion1{
+            padding-top: 30px;
+            text-align:justify;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 80%;
+    
+        }
+    }
+
+    
+
+    .mapa2{
+        
+        display: grid;
+        padding-left: 3px;
+        padding-right: 1px;
+
+        .direccion2{
+            padding-top: 30px;
+            text-align:justify;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-size: 80%;
+        }
+    }
+
+
+}
+    
+@media (min-width: 600px){
+    
+
+}
